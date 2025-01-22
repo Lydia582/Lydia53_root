@@ -1,0 +1,27 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background: rgb(50, 80, 144)46;
+    transition: all 0.5s ease-in;
+    rotate: 45deg;
+}
+
+.fancy{
+    background: rgb(224, 141, 224) !important;
+    background: radial-gradient(circle, rgb(156, 18, 64) 0%, rgb(255, 184, 248) 24%, rgb(255, 99, 226)76%) !important;
+    border-radius: 20%;
+    box-shadow: 5px 10px 18px #9c8090;
+    animation: spin 0.07s linear infinite;
+    scale: 1.5;
+    translate: 500px;
+}
+
+@keyframes spin{
+	100%{
+		transform:rotate(360deg);
+	}
+}
+.fancy:hover{
+    /* background: radial-gradient(circle, rgb(34, 195, 42) 0%, rgb(48, 37, 207) 24%, rgb(232, 253, 45) 76%) !important; */
+    background: rgb(52, 2, 66)5, 0 !important;
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+figure img {
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.44rem;
+}
+
+@media (max-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+

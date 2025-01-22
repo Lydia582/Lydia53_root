@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(36, 36, 36);
+  color: rgb(100, 4, 4);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+header {
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.headernav {
+  background-color: rgb(58, 58, 58);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 125px;
+}
+
+.aboutnav {
+  background-color: rgb(90, 90, 90);
+  text-align: center;
+  color: whitesmoke;
+}
+
+ul li {
+  display: inline-block;
+}
+
+#intro {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#about {
+  background-color: rgb(129, 105, 105);
+  color: rgb(59, 0, 0);
+  padding: 15px;
+  text-align: center;
+}
+
+#interests {
+  background-color: rgb(105, 56, 56);
+  color: rgb(51, 33, 33);
+  padding: 15px;
+  text-align: center;
+}
+
+#contact {
+  background-color: rgb(65, 27, 27);
+  color: rgb(187, 151, 151);
+  text-align: center;
+  padding: 15px;
+}
+
+footer {
+  background-color: dimgrey;
+}
+
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .headernav {
+    height: 150px;
+    transition: all 0.3s ease-in;
+  }
+}

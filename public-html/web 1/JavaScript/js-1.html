@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js-1 - Intro</title>
+  </head>
+  <body>
+    <h1>JavaScript Theory 1 - Introduction</h1>
+    <div id="results"></div>
+    <div id="exercise"></div>
+    <script>
+      //Alerting & logging
+      alert("Text String");
+      console.log("Hello there :)");
+
+      //Variables
+      const mySpecialNumber = 7;
+      let otherNumber = 9;
+      let myResult = mySpecialNumber + otherNumber;
+      //console.log(mySpecialNumber + otherNumber);
+
+      //Old-school variable type var
+      var oldNumber = 5;
+
+      console.log(myResult);
+
+      const myResultsDiv = document.getElementById("results");
+
+      //myResultsDiv.innerHTML = "<h3>" + myResult + "</h3>";
+      myResultsDiv.innerHTML = `<h3>${myResult}</h3>
+      <hr>
+      Good Morning ;)🐓<br>
+      <img style= "width:90%" src="https://preview.redd.it/8ng3p4oinmn91.jpg?auto=webp&s=5888c194c6141dea545648fe1ecef3224625d05c"/>
+      `;
+
+      //console.log(myResult);
+
+      const myExerciseDiv = document.getElementById("exercise");
+
+      //myResultsDiv.innerHTML = "<h3>" + myResult + "</h3>";
+      myExerciseDiv.innerHTML = `<h3>${myResult}</h3>
+      <hr>
+      Good Night zzZ 🛏️<br>
+      <img style= "width:90%" src="https://i.pinimg.com/originals/fd/49/0a/fd490afe50c55145f8898f47cdad80c2.jpg"/>
+      `;
+    </script>
+  </body>
+</html>

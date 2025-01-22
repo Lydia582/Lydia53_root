@@ -1,0 +1,103 @@
+#gecko {
+    animation-name: crawlingGecko;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes crawlingGecko{
+0% {
+    transform: translateX(0px);
+}
+48%{
+    transform: translateX(600px);
+}
+50%{
+    transform: rotateY(180deg) translateX(-600px);
+}
+98%{
+    transform: translateX(0px) rotateY(180deg);
+}
+100% {
+    transform: translateX(0px);
+}
+}
+
+#champagne{
+    position: absolute;
+    left: 40%;
+    top: 500px;
+}
+
+#bubble1 {
+        position: absolute;
+        left: 43%;
+        top: 530px;
+    animation-name: bubble1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble1{
+0% {
+    transform: translateX(0px) translateY(0px) scale(0%);
+}
+
+50%{
+    transform: translateX(10px) translateY(-60px) scale(100%);
+}
+
+100% {
+    transform: translateX(-10px) translateY(-120px) scale(0%);
+}
+}
+
+#bubble2{
+    position: absolute;
+    left: 47%;
+    top: 530px;
+    animation-name: bubble2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble2{
+    0% {
+        transform: translateX(0px) translateY(0px) scale(0%);
+    }
+    
+    50%{
+        transform: translateX(-10px) translateY(-100px) scale(100%);
+    }
+    
+    100% {
+        transform: translateX(10px) translateY(-200px) scale(0%);
+    }
+}
+
+#bubble3 {
+    position: absolute;
+    left: 52%;
+    top: 530px;
+    animation-name: bubble3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble3{
+    0% {
+        transform: translateX(0px) translateY(0px) scale(0%);
+    }
+    
+    50%{
+        transform: translateX(10px) translateY(-150px) scale(100%);
+    }
+    
+    100% {
+        transform: translateX(-10px) translateY(-285px) scale(0%);
+    }
+}
+

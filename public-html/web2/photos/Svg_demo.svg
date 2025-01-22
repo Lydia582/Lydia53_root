@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.boat{
+		fill:#754C24;stroke:#000000;stroke-width:3;stroke-miterlimit:10;
+		animation-name: boatMoves;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: both;
+		}
+	.flag{
+		fill:#AA0900;stroke:#000000;stroke-width:3;stroke-miterlimit:10;
+		animation-name: flagMoves;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: both;
+		}
+	.waves_back{
+		fill:#0071BC;stroke:#090074;stroke-width:3;stroke-miterlimit:10;
+		animation-name: waves_backMoves;
+		animation-duration: 7s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: both;
+		}
+	.waves_front{
+		fill:#29ABE2;stroke:#000066;stroke-width:3;stroke-miterlimit:10;
+		animation-name: waves_frontMoves;
+		animation-duration: 7s;
+		animation-iteration-count: infinite;
+		animation-fill-mode: both;
+		}
+
+
+	@keyframes boatMoves{
+		50%{transform: rotate(3deg)}
+		100%{transform: rotate(0deg)}
+	}
+
+	@keyframes flagMoves{
+		50%{transform: rotate(3deg)}
+		100%{transform: rotate(0deg)}
+	}
+
+	@keyframes waves_backMoves{
+		0% { transform : translateX(-100px)}
+		50% { transform : translateX(100px)}
+		100% { transform : translateX(-100px)}
+	}
+
+	@keyframes waves_frontMoves{
+		0% { transform : translateX(-75px)}
+		50% { transform : translateX(75px)}
+		100% { transform : translateX(-75px)}
+	}
+
+</style>
+<g id="boat">
+	<g>
+		<path class="boat" d="M445.5,558.5H975c0,0-96.58,137.15-215.84,141.92C639.9,705.19,455.04,737.39,445.5,558.5z"/>
+		<path class="boat" d="M651.89,558c-1.83-303.3,0-340,0-340H666v340"/>
+		<polyline class="flag" points="667,241 837.5,433.5 667,433.5 		"/>
+	</g>
+</g>
+<g id="waves_back">
+	<path class="waves_back" d="M1366,596.18c-66.76,153.61-170.42,51.22-170.42,51.22l-0.38,0.09c0,0-103.65,102.39-170.42-51.22h-0.41
+		c-66.76,153.61-170.42,51.22-170.42,51.22l-0.18-0.18c0,0-103.65,102.39-170.42-51.22h-0.41
+		c-66.76,153.61-170.42,51.22-170.42,51.22l-0.34-0.09c0,0-103.65,102.39-170.42-51.22h-0.41
+		c-66.76,153.61-170.42,51.22-170.42,51.22l-0.54,0.18c0,0-103.65,102.39-170.42-51.22V734h1364.57L1366,596.18z"/>
+</g>
+<g id="Waves_front">
+	<path class="waves_front" d="M1366,692c0,0-116.41,68.71-170.65-48.13h-0.44C1140.67,760.71,1024.26,692,1024.26,692h-0.44
+		c0,0-116.41,68.71-170.65-48.13h-0.44C798.48,760.71,682.35,692,682.35,692s-116.13,68.71-170.37-48.13h-0.44
+		C457.3,760.71,340.89,692,340.89,692l0.53,0.23c0,0-116.41,68.71-170.65-48.13h-0.44C116.08,760.93-0.33,692.22-0.33,692.22L0,768
+		h1366V692z"/>
+</g>
+</svg>

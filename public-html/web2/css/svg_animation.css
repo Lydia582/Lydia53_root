@@ -1,0 +1,51 @@
+.boat{
+    fill:#754C24;stroke:#000000;stroke-width:3;stroke-miterlimit:10;
+    animation-name: boatMoves;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    }
+.flag{
+    fill:#AA0900;stroke:#000000;stroke-width:3;stroke-miterlimit:10;
+    animation-name: flagMoves;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    }
+.waves_back{
+    fill:#0071BC;stroke:#090074;stroke-width:3;stroke-miterlimit:10;
+    animation-name: waves_backMoves;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    }
+.waves_front{
+    fill:#29ABE2;stroke:#000066;stroke-width:3;stroke-miterlimit:10;
+    animation-name: waves_frontMoves;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    }
+
+
+@keyframes boatMoves{
+    50%{transform: rotate(3deg)}
+    100%{transform: rotate(0deg)}
+}
+
+@keyframes flagMoves{
+    50%{transform: rotate(3deg)}
+    100%{transform: rotate(0deg)}
+}
+
+@keyframes waves_backMoves{
+    0% { transform : translateX(-100px)}
+    50% { transform : translateX(100px)}
+    100% { transform : translateX(-100px)}
+}
+
+@keyframes waves_frontMoves{
+    0% { transform : translateX(-75px)}
+    50% { transform : translateX(75px)}
+    100% { transform : translateX(-75px)}
+}

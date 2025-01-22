@@ -1,0 +1,29 @@
+nav {
+color: lightgray;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: lightgray;
+}
+
+a:link {
+    color: lightgray;
+}
+a:visited {
+    color: lightgray;
+}
+a:link:hover{
+    transition: color 1s;
+    color: rgb(222, 138, 138);
+}
+
+img {
+    opacity: 0.25;
+    transition: 500ms;
+}
+
+img:hover {
+    opacity: 1;
+}
+

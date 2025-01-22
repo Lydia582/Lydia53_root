@@ -1,0 +1,86 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(48, 44, 44);
+  color: maroon;
+  font-size: 20px;
+}
+
+header {
+  color: whitesmoke;
+  height: 125px;
+  /* padding: 20px; */
+  /* padding: 20px 30px; */
+  padding: 12px 23px 40px 30px;
+  margin-top: 1.44rem;
+}
+
+nav {
+  background-color: dimgrey;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  color: maroon;
+}
+
+main {
+  background-color: rgb(48, 44, 44);
+  display: flex;
+}
+
+section {
+  margin: 1.44rem;
+}
+
+/*aside {
+  background-color: maroon;
+  width: 25%;
+}
+
+section aside {
+  min-height: 500px;
+  padding: 10px;
+}
+
+#banner {
+  background-color: rgb(48, 44, 44);
+}*/
+
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  background-color: dimgrey;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+    background-color: rgb(228, 91, 114);
+    transition: all 0.3s ease-in;
+  }
+}

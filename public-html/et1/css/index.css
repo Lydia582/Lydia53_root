@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*img, figure img{
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: cover; 
+}*/
+
+html,
+body {
+  background-color: rgb(48, 44, 44);
+  min-height: 100vh;
+  /*font-size: ;*/
+  font-family: "Courier New", Courier, monospace;
+}
+
+#top {
+  display: block;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding: 1.2rem 0;
+  background-color: dimgrey;
+  color: maroon;
+}
+
+a:link,
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ul li {
+  display: inline-block;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+/*h2,p {
+  margin: 1.2rem;
+}*/
+
+h2,
+header,
+section {
+  padding: 1.2rem;
+}
+header {
+  text-align: center;
+  color: oldlace;
+}
+#exercises a {
+  display: block;
+  padding: 1.5rem 0.5rem;
+  background-color: rgb(121, 44, 44);
+  margin: 0 1.5rem;
+}
+
+figcaption {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: dimgrey;
+  position: fixed;
+  bottom: 0;
+}

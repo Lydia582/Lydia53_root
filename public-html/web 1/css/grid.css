@@ -1,0 +1,38 @@
+grid.css * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(223, 93, 240);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 40px;
+}
+
+.grid-items {
+  background-color: rgb(154, 255, 72);
+  width: 100%;
+  height: 300px;
+}
+
+.fancy {
+  background-color: floralwhite;
+  border: 10px lightgreen double;
+}
+
+/* Responsive*/
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}

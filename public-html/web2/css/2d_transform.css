@@ -1,0 +1,49 @@
+#kitten, #puppy, #gecko{
+    transition: 500ms;
+}
+
+#kitten:hover{
+    transform: rotate(45deg);
+}
+
+#puppy:hover{
+    transform: scale(1.25);
+}
+
+.move-right{
+    transform: translateX(900px);
+}
+
+article section {
+    position:absolute;
+    width: 300px;
+    left:-300px;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+article section nav {
+    width: 315px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0.5em;
+    transition: transform 0.5s
+}
+
+#info-transform{
+    top:75.44px;
+}
+
+#two{
+    top: 405px;
+}
+
+#three{
+    top: 1020px;
+}
+
+section {
+    color: rgb(231, 231, 231);
+}
+
+.visible {
+    transform: translateX(300px);
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  figure img {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.44rem;
+  }
+  
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }

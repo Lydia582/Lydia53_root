@@ -1,0 +1,20 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .baby-goat {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 500ms;
+  }
+  .corpse-goat {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .baby-goat:hover {
+    opacity: 0;
+  }

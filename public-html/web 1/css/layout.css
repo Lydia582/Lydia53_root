@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: darkred;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+header {
+  background-color: dimgrey;
+  height: 125px;
+  /* padding: 20px; */
+  /* padding: 20px 30px; */
+  padding: 12px 23px 40px 30px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+nav {
+  background-color: dimgrey;
+}
+
+ul li {
+  display: inline-block;
+}
+
+main {
+  background-color: black;
+  display: flex;
+}
+
+section {
+  background-color: gray;
+}
+
+aside {
+  background-color: maroon;
+  width: 25%;
+}
+
+section aside {
+  min-height: 500px;
+  padding: 10px;
+}
+
+#banner {
+  background-color: black;
+}
+
+a:link {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: dimgrey;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 150px;
+    transition: all 0.3s ease-in;
+  }
+}
