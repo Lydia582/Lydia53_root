@@ -1,0 +1,49 @@
+nav {
+color: lightgray;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: lightgray;
+}
+
+a:link {
+    color: lightgray;
+}
+a:visited {
+    color: lightgray;
+}
+a:link:hover{
+    transition: color 1s;
+    color: rgb(230, 130, 224);
+}
+
+.kitty {
+    opacity: 0.25;
+    transition: 500ms;
+}
+
+.kitty:hover {
+    opacity: 1;
+}
+/* Challenge*/
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .baby-goat {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 500ms;
+  }
+  .corpse-goat {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .baby-goat:hover {
+    opacity: 0;
+  }
