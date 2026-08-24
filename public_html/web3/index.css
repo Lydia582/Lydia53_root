@@ -1,0 +1,26 @@
+* {
+
+}
+
+nav {
+    justify-items: right;
+    padding: 1rem;
+}
+
+header {
+    place-items: center;
+    display: grid;
+    unicode-bidi: isolate;
+    background-color: rgb(194, 194, 194);
+    margin-bottom: 3rem;
+}
+
+.button {
+    width:200px;
+    height: 200px;
+    background-color: rgb(244, 223, 207);
+    border-radius: 5%;
+    border-color: rgb(36, 31, 24);
+    border-width: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

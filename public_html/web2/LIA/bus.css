@@ -1,0 +1,51 @@
+body{
+   background-size: 16.5%;
+}
+
+main {
+    background-color: rgba(169, 255, 186, 1);
+}
+
+footer {
+    color: rgba(169, 255, 186, 1);
+}
+
+p, h3, li{
+     font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+   font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@media screen and (min-width: 800px) {
+        
+         main {
+            grid-template-rows:repeat(5,auto);
+            display: grid;
+         }
+
+         header{
+            grid-row-start: 1;
+         }
+
+         nav {
+            grid-row-start: 2;
+         }
+
+         #text {
+            grid-row-start: 3;
+         }
+
+         .gallery {
+            grid-row-start: 4;
+         }
+
+         footer {
+            grid-row-start: 5;
+         }
+
+        }

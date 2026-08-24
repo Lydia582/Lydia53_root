@@ -1,0 +1,63 @@
+body {
+ background-image: url("./Union.svg");
+ background-color: #ffffff;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Indie Flower";
+}
+
+header {
+ margin-top: 3rem;
+ text-align: center;
+}
+
+.box {
+    background-color: rgb(255 255 255);
+    
+}
+
+#board {
+    background-color: rgb(50, 50, 50);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 180px;
+    height: 180px;
+    margin: .05rem;
+    border-color: rgb(50, 50, 50);
+    border-radius: 5%;
+}
+
+#jeu {
+    background-color: rgb(50, 50, 50);
+    border: solid  rgb(50, 50, 50) .3rem;
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /*width: fit-content;
+    height: fit-content;*/
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0px;
+}
+
+button {
+    margin-top: 1rem;
+    margin-left: 47%;
+    padding: .5rem;
+    font-family: "Indie Flower";
+    border-radius: 20%;
+    background-color: #ffffff00;
+    font-size: larger;
+}
