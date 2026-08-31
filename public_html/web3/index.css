@@ -1,5 +1,5 @@
 * {
-
+ background-color: rgb(230, 207, 207);
 }
 
 nav {
@@ -10,17 +10,22 @@ nav {
 header {
     place-items: center;
     display: grid;
-    unicode-bidi: isolate;
-    background-color: rgb(194, 194, 194);
+    background-color:  rgb(217, 106, 106);
     margin-bottom: 3rem;
 }
 
+header h1 {
+    background-color: rgb(217, 106, 106);
+    color: azure;
+}
+
 .button {
-    width:200px;
-    height: 200px;
-    background-color: rgb(244, 223, 207);
+    background-color: azure;
+    color: rgb(217, 106, 106);
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    padding: 1rem;
+    border: solid,rgb(217, 106, 106), 2px;
     border-radius: 5%;
-    border-color: rgb(36, 31, 24);
-    border-width: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }

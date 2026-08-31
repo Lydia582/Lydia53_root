@@ -103,7 +103,7 @@ figure{
 @media only screen and (min-width: 1080px) {
     #cards{
         display: grid;
-        columns: 1fr 1fr 1fr;
+        columns: 1fr 1fr;
     }
     
 }
